@@ -3,7 +3,7 @@
 
     .wrapper {
         max-width: 1366px;
-        margin: 10%;
+        margin-left: 25%;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -16,6 +16,7 @@
         .social {
             display: flex;
             gap: 20px;
+            padding-right: 5%;
 
             img {
                 width: 1.5rem;
