@@ -38,7 +38,7 @@ const sliderVariants = {
   },
 };
 
-export const Intro = () => {
+export const Intro = ({ scrollToContact }) => {
   return (
     <div className="intro">
       <div className="wrapper">
@@ -58,15 +58,9 @@ export const Intro = () => {
             Rails, delivering robust solutions in the industry
           </motion.p>
           <motion.div variants={textVariants} className="buttons">
-            <motion.a
-              variants={textVariants}
-              href="https://drive.google.com/file/d/1f2wskhSC2Kul3Iko3KwFXsEto2el4lC-/view?usp=sharing"
-              target="_blank"
-            >
-              <motion.button variants={textVariants}>
-                Get My Resume
+              <motion.button variants={textVariants} onClick={scrollToContact}>
+                Contact Me
               </motion.button>
-            </motion.a>
           </motion.div>
           <motion.img
             variants={textVariants}

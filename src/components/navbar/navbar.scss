@@ -19,8 +19,13 @@
             padding-right: 5%;
 
             img {
-                width: 1.5rem;
-                height: 1.5rem;
+                width: 2.5rem;
+                height: 2.5rem;
+                transition: transform 0.5s ease;
+            }
+
+            img:hover {
+                transform: scale(2.1);
             }
         }
     }

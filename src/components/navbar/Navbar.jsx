@@ -15,19 +15,19 @@ export const Navbar = () => {
                 Zuheb Ahmed
             </motion.span>
             <div className="social">
-                <a href="https://www.linkedin.com/in/zuheb-ahmed/">
+                <a href="https://www.linkedin.com/in/zuheb-ahmed/" target="_blank">
                     <img src="/linkedin.png" alt="logo" />
                 </a>
-                <a href="https://twitter.com/ZuhebAhmed88091">
+                <a href="https://twitter.com/ZuhebAhmed88091" target="_blank">
                     <img src="/twitter.png" alt="logo" />
                 </a>
-                <a href="https://medium.com/@zuhebahmed101625">
+                <a href="https://medium.com/@zuhebahmed101625" target="_blank">
                     <img src="/medium.png" alt="logo" />
                 </a>
-                <a href="https://github.com/zuhebahmed88091">
+                <a href="https://github.com/zuhebahmed88091" target="_blank">
                     <img src="/github.png" alt="logo" />
                 </a>
-                <a href="https://wellfound.com/u/zuheb-ahmed-1">
+                <a href="https://wellfound.com/u/zuheb-ahmed-1" target="_blank">
                     <img src="/angelist.png" alt="logo" />
                 </a>
             </div>
