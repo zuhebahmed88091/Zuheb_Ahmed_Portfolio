@@ -6,6 +6,7 @@ import { Navbar } from "./components/navbar/Navbar";
 import { Parallax } from "./components/parallax/Parallax";
 import { Projects } from "./components/projects/Projects";
 import { Skills } from "./components/skills/Skills";
+import { Contact } from "./components/contact/Contact";
 
 const App = () => {
   const contactRef = useRef(null);
@@ -22,7 +23,7 @@ const App = () => {
     <section id="Projects"><Parallax type="projects"/></section>
     <Projects/>
     <section id="About Me"><Aboutme/></section>
-    <section ref={contactRef} id="Contact">Contact</section>
+    <section ref={contactRef} id="Contact"><Contact/></section>
   </div>;
 };
 
