@@ -7,6 +7,7 @@ import { Parallax } from "./components/parallax/Parallax";
 import { Projects } from "./components/projects/Projects";
 import { Skills } from "./components/skills/Skills";
 import { Contact } from "./components/contact/Contact";
+import { Cursor } from "./components/cursor/Cursor";
 
 const App = () => {
   const contactRef = useRef(null);
@@ -14,6 +15,7 @@ const App = () => {
     contactRef.current.scrollIntoView({ behavior: "smooth" });
   };
   return <div>
+    <Cursor/>
     <section id="Intro">
       <Navbar/>
       <Intro scrollToContact={scrollToContact}/>
