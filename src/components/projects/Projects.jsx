@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import "./projects.scss";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
-import { show, book } from "../../assets";
+import { show, air, space, book } from "../../assets";
 
 const items = [
   {
@@ -19,7 +19,7 @@ const items = [
   {
     id: 2,
     title: "AirVibe",
-    img: "../../../public/airVibe.png",
+    img: air,
     git: "https://github.com/zuhebahmed88091/AirVibe",
     live: "https://airvibe.onrender.com",
     tech1: 'React',
@@ -31,7 +31,7 @@ const items = [
   {
     id: 3,
     title: "Space Traveler's Hub",
-    img: "../../../public/space.png",
+    img: space,
     git: "https://github.com/zuhebahmed88091/Space_Travelers_Hub",
     live: "https://microverse-space-travelers-hub.onrender.com",
     tech1: 'React',
