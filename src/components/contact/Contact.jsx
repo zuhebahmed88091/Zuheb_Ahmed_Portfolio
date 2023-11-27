@@ -61,7 +61,7 @@ export const Contact = () => {
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Address</h2>
-          <span>Khilgaon, Dhaka - 1213 Bangladesh</span>
+          <span>Dhakam, Bangladesh</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Phone</h2>

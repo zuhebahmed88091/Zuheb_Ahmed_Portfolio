@@ -1,3 +1,5 @@
+@import "../../app.scss";
+
 .contact {
   height: 100%;
   max-width: 1366px;
@@ -6,31 +8,114 @@
   align-items: center;
   gap: 50px;
 
+  @include tablet {
+    margin: 0;
+    width: 90%;
+    padding: 1rem;
+    flex-direction: column;
+  }
+
+  @include mobile {
+    margin: 0;
+    width: 100%;
+    padding: 0.5rem;
+    flex-direction: column;
+  }
+
   .textContainer {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 2rem;
 
+    @include tablet {
+      gap: 1rem;
+      text-align: center;
+      align-items: center;
+      margin-top: 1rem;
+    }
+
+    @include mobile {
+      gap: 1rem;
+      text-align: center;
+      align-items: center;
+      margin-top: 1rem;
+    }
+
     h1 {
       font-size: 4rem;
       line-height: 4.5rem;
+
+      @include tablet {
+        font-size: 2rem;
+      }
+
+      @include mobile {
+        font-size: 2rem;
+      }
+    }
+
+    h2 {
+      @include tablet {
+        font-size: 1rem;
+      }
+
+      @include mobile {
+        font-size: 1.2rem;
+      }
     }
 
     span {
       font-weight: 300;
+
+      @include tablet {
+        font-size: 0.8rem;
+      }
+
+      @include mobile {
+        font-size: 0.8rem;
+      }
     }
   }
 
   .formContainer {
     flex: 1;
     position: relative;
+    width: 100%;
+
+    @include tablet {
+      width: 90%;
+      padding: 1.2rem;
+    }
+
+    @include mobile {
+      width: 100%;
+      padding: 1.2rem;
+    }
 
     .phoneSvg {
         stroke: orange;
         position: absolute;
         margin: auto;
         z-index: -1;
+
+        @include tablet {
+          svg {
+            text-align: center;
+            width: 300px;
+            height: 300px;
+            margin-left: 50%;
+          }
+        }
+
+        @include mobile {
+          svg {
+            text-align: center;
+            width: 250px;
+            height: 250px;
+            margin-left: 2rem;
+          }
+        }
     }
 
     form {
@@ -45,6 +130,10 @@
         border: 1px solid whitesmoke;
         color: whitesmoke;
         border-radius: 5px;
+
+        @include mobile {
+          padding: 0.5rem;
+        }
       }
 
       button {
@@ -53,6 +142,10 @@
         background-color: orange;
         cursor: pointer;
         font-weight: 500;
+
+        @include mobile {
+          padding: 0.5rem;
+        }
       }
     }
   }

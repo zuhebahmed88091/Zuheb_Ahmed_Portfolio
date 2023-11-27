@@ -20,7 +20,8 @@ const variants = {
 
 export const Skills = () => {
   return (
-    <motion.div className="skills" variants={variants} initial="initial" whileInView="animate">
+    // initial="initial" whileInView="animate"
+    <motion.div className="skills" variants={variants} initial="initial" whileInView="animate"> 
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
             <img src="/people.webp" alt="people" />

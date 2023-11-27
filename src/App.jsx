@@ -21,7 +21,7 @@ const App = () => {
       <Intro scrollToContact={scrollToContact}/>
     </section>
     <section id="Skills"><Parallax type="skills"/></section>
-    <section><Skills/></section>
+    <section className="skills-parent"><Skills/></section>
     <section id="Projects"><Parallax type="projects"/></section>
     <Projects/>
     <section id="About Me"><Aboutme/></section>
