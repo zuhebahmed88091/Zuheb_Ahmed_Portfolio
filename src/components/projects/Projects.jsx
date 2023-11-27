@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import "./projects.scss";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
-import "../../../public/assets"
+// import "../../../public/assets"
 
 const items = [
   {
