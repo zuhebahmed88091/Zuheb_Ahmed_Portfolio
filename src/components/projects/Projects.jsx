@@ -1,13 +1,13 @@
 import { useRef } from "react";
 import "./projects.scss";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
-// import "../../../public"
+import { show, book } from "../../assets";
 
 const items = [
   {
     id: 1,
     title: "ShowAddict",
-    img: "../../../public/showAddict.png",
+    img: show,
     git: "https://github.com/zuhebahmed88091/ShowAddit_capstone_js",
     live: "https://showaddict-fombi-zuheb.netlify.app",
     tech1: 'JavaScript',
@@ -43,7 +43,7 @@ const items = [
   {
     id: 4,
     title: "Bookstore",
-    img: "../../../public/bookStore.png",
+    img: book,
     git: "https://github.com/zuhebahmed88091/Bookstore",
     live: "https://bookstore-5p2j.onrender.com",
     tech1: 'React',
