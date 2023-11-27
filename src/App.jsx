@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import "./app.scss";
-import { Aboutme } from "./components/aboutme/aboutme";
+import { Aboutme } from "./components/Aboutme/Aboutme";
 import { Intro } from "./components/intro/Intro";
 import { Navbar } from "./components/navbar/Navbar";
 import { Parallax } from "./components/parallax/Parallax";
