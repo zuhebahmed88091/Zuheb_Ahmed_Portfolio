@@ -1,13 +1,12 @@
 import { useRef } from "react";
 import "./projects.scss";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
-// import "../../../public/assets"
-
+// import "../../../public"
 const items = [
   {
     id: 1,
     title: "ShowAddict",
-    img: "../../../public/assets/showAddict.jpg",
+    img: "../../../public/showAddict.jpg",
     git: "https://github.com/zuhebahmed88091/ShowAddit_capstone_js",
     live: "https://showaddict-fombi-zuheb.netlify.app",
     tech1: 'JavaScript',
@@ -66,7 +65,7 @@ const Single = ({ item }) => {
       <div className="container">
         <div className="wrapper">
           <div className="imageContainer">
-            <img src={item.img} alt="project" />
+            <img src="github.png" alt="project" />
           </div>
           <motion.div className="textContainer" style={{y}}>
             <h2>{item.title}</h2>
