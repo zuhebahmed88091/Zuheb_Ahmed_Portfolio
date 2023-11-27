@@ -1,12 +1,13 @@
 import { useRef } from "react";
 import "./projects.scss";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
+import "../../../public/assets"
 
 const items = [
   {
     id: 1,
     title: "ShowAddict",
-    img: "../../../public/showAddict.jpg",
+    img: "../../../public/assets/showAddict.jpg",
     git: "https://github.com/zuhebahmed88091/ShowAddit_capstone_js",
     live: "https://showaddict-fombi-zuheb.netlify.app",
     tech1: 'JavaScript',
