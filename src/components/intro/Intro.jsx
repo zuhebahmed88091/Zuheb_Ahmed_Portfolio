@@ -78,9 +78,9 @@ export const Intro = ({ scrollToContact }) => {
       >
         Innovative Full-Stack Developer | Creating High-Impact Web Solutions
       </motion.div>
-      <div className="imageContainer">
+      {/* <div className="imageContainer">
         <img src="./myimg.png" alt="" />
-      </div>
+      </div> */}
     </div>
   );
 };
