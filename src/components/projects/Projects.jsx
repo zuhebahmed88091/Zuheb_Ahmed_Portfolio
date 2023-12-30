@@ -7,7 +7,7 @@ const items = [
   {
     id: 1,
     title: "Math Magician",
-    img: show,
+    img: calc,
     git: "https://github.com/zuhebahmed88091/Math_Magician",
     live: "https://math-magician-5n5e.onrender.com",
     tech1: 'React',
