@@ -6,15 +6,15 @@ import { show, air, space, book } from "../../assets";
 const items = [
   {
     id: 1,
-    title: "ShowAddict",
+    title: "Math Magician",
     img: show,
-    git: "https://github.com/zuhebahmed88091/ShowAddit_capstone_js",
-    live: "https://showaddict-fombi-zuheb.netlify.app",
-    tech1: 'JavaScript',
+    git: "https://github.com/zuhebahmed88091/Math_Magician",
+    live: "https://math-magician-5n5e.onrender.com",
+    tech1: 'React',
     tech2: 'HTML',
     tech3: 'CSS',
     tech4: 'API',
-    desc: "ShowAddict: Using HTML, CSS, JavaScript, we interact with TVMAZE API for series info, comments, and likes, enhancing TV enthusiasts' experience.",
+    desc: "Math-Magicians: A SPA for math enthusiasts to compute and explore math-related quotes.",
   },
   {
     id: 2,
